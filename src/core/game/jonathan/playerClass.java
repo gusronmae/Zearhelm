@@ -11,7 +11,6 @@ public class playerClass {
     static String playerClassChoice;
     Scanner keyboard = new Scanner(System.in);
 
-
     void playerClass() {
         Delay.pause(1000);
         System.out.println("There are two available classes. You must choose between Warrior or Mage.");

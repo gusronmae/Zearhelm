@@ -5,10 +5,10 @@ package core.game.jonathan;
  */
 public class Player {
 
-    static int health = 100;
-    static int speed = 45;
-    static int attackPower = 30;
-    int spellPower = 36;
+    static double health = 100;
+    static double speed = 45;
+    static double attackPower = 30;
+    double spellPower = 36;
     static String playerClass;
     
     static void setPlayerClass(String p) {
@@ -19,35 +19,35 @@ public class Player {
         return playerClass;
     }
 
-    void setHealth(int health) {
+    void setHealth(double health) {
         this.health = health;
     }
 
-    int getHealth() {
+    double getHealth() {
         return health;
     }
 
-    void setSpeed(int speed) {
+    void setSpeed(double speed) {
         this.speed = speed;
     }
 
-    int getSpeed() {
+    double getSpeed() {
         return speed;
     }
 
-    void setAttackPower(int attackPower) {
+    void setAttackPower(double attackPower) {
         this.attackPower = attackPower;
     }
 
-    int getAttackPower() {
+    double getAttackPower() {
         return attackPower;
     }
 
-    void setSpellPower(int spellPower) {
+    void setSpellPower(double spellPower) {
         this.spellPower = spellPower;
     }
 
-    int getSpellPower() {
+    double getSpellPower() {
         return spellPower;
     }
 

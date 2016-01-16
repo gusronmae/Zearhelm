@@ -5,41 +5,41 @@ package core.game.jonathan;
  */
 public class Enemy {
 
-    int health;
-    int speed;
-    int attackPower;
-    int spellPower;
+    private double health;
+    private double speed;
+    private double attackPower;
+    private double spellPower;
     String name;
 
-    void setHealth(int health) {
+    void setHealth(double health) {
         this.health = health;
     }
 
-    public int getHealth() {
+    public double getHealth() {
         return health;
     }
 
-    public void setSpeed(int speed) {
+    public void setSpeed(double speed) {
         this.speed = speed;
     }
 
-    public int getSpeed() {
+    public double getSpeed() {
         return speed;
     }
 
-    public void setAttackPower(int attackPower) {
+    public void setAttackPower(double attackPower) {
         this.attackPower = attackPower;
     }
 
-    public int getAttackPower() {
+    public double getAttackPower() {
         return attackPower;
     }
 
-    public void setSpellPower(int spellPower) {
+    public void setSpellPower(double spellPower) {
         this.spellPower = spellPower;
     }
 
-    public int getSpellPower() {
+    public double getSpellPower() {
         return spellPower;
     }
 
