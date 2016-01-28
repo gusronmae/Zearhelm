@@ -20,7 +20,7 @@ public class playerClass {
         Delay.pause(2000);
         System.out.println("Bloodthirst: Smash the target dealing 150% of attack power. Heal for 20% of the damage done.");
         Delay.pause(2000);
-        System.out.println("Rend: Deal damage equal to 45% of attack power each turn.");
+        System.out.println("Rend: Deal damage equal to 45% of attack power each turn for 3 turns.");
         Delay.pause(2000);
         System.out.println("Execute: Attempt to execute enemy dealing 300% of attack power as damage." +
                 "Only usable on enemies with less than 20% Health.");
